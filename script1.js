@@ -149,10 +149,10 @@ if (num1Con || num2Con || optionCon) {
     }
 }*/
  //loop
-
+/*
  var x = 1;
 
  while ( x <= 10) {
     console.log("enter your result: " + x  );
     x++;
- }
+ } */
