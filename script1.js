@@ -108,7 +108,8 @@ console.log("Your Grade = " + grade );
 */
 
 // calculator
-/*console.log("Please Select an Optin: \n1. Add \n2. Substract \n3. Multiply \n4. Devidate");
+/*
+console.log("Please Select an Optin: \n1. Add \n2. Substract \n3. Multiply \n4. Devidate");
 
 var num1 = prompt("Please Enter your 1st number");
 var num2 = prompt("Please Enter your 1st number");
@@ -122,7 +123,7 @@ option = parseInt(option);
 var num1Con = isNaN(num1);
 var num2Con = isNaN(num2);
 var optionCon = isNaN(option);
-123
+
 if (num1Con || num2Con || optionCon) {
     console.log("Invalid Input");
 } else {
@@ -147,12 +148,90 @@ if (num1Con || num2Con || optionCon) {
     }else{
         console.log("Result: " + result);
     }
-}*/
+}
  //loop
-/*
- var x = 1;
+*/
 
- while ( x <= 10) {
-    console.log("enter your result: " + x  );
-    x++;
- } */
+//  var x = 1;
+//  var sum = 0;
+//  var product = 1;
+
+//  while ( x <= 10) {
+//      sum = sum + x;
+//      product = product * x;
+//     x++;
+//  } 
+//  console.log("Result: " + sum  );
+//  console.log("Product: " + product);
+
+// var x = 1;
+
+// while (x <= 5) {
+//     console.log(x);
+//     x++;
+// }
+// console.log("end of while loop");
+
+// for (var a = 1; a <= 5 ; a++) {
+//     console.log(a);;
+    
+// }
+// console.log("end of for loot");
+
+// for (let y = 5; y >=1; y--) {
+//     console.log(y);;
+    
+// }
+
+//break & continue
+
+// for ( var x = 1; x <=10; x++) {
+//     if ( x % 2 == 0) {
+//       continue;  
+//     }
+
+//     console.log(x);
+   
+// }
+
+// var name = "Darkness is our feature tech company"
+// var Cunt =["Bangladesh","india","nepal"]
+// var len = Cunt.length;
+
+// for ( x = 0; x < len; x++ ){
+//     console.log("Index: " + x);
+//     console.log(Cunt[x]);
+// }
+
+//for in &  for of
+
+// var name = "Darkness";
+// var food = ["cake", "chocolate", "biscut"];
+// var person = {
+//     name : "Nayan Hossain",
+//     age : 23,
+//     profession : "student"
+// };
+
+// for ( var x in name){
+//     console.log(`Index ${x} and value ${name[x]}`);
+// }
+
+// console.log("end");
+
+// for ( var x in food){
+//     console.log(`Index ${x} and value ${food[x]}`);
+// }
+
+// console.log("end");
+
+// for ( var x in person){
+//     console.log(`Index ${x} =  ${person[x]}`);
+// }
+
+// console.log("end");
+
+// for ( var x of food){
+//     console.log(`Value ${x}`);
+// }
+
